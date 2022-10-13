@@ -41,7 +41,6 @@ class SampleView: UIView {
 
         button.rx.tap
             .subscribe(onNext: {
-                // ここでモーダル遷移したい
                 // ViewControllerでpresentしたい
                 // 例えば`UIAlertController`とか`UIActivityViewController`とか
             })
