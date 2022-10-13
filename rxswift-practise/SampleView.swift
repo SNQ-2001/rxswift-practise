@@ -43,6 +43,7 @@ class SampleView: UIView {
             .subscribe(onNext: {
                 // ここでモーダル遷移したい
                 // ViewControllerでpresentしたい
+                // 例えば`UIAlertController`とか`UIActivityViewController`とか
             })
             .disposed(by: disposeBag)
     }
