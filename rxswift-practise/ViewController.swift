@@ -12,10 +12,12 @@ import SnapKit
 class ViewController: UIViewController {
 
     private let sampleView = SampleView(frame: .zero)
+    private let disposeBag = DisposeBag()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
+        bind()
     }
 
     private func setupViews() {
@@ -24,5 +26,13 @@ class ViewController: UIViewController {
         sampleView.snp.makeConstraints {
             $0.edges.equalToSuperview()
         }
+    }
+
+    private func bind() {
+        sampleView.buttonDidTap
+            .subscribe(onNext: { 
+                print("tap")
+            })
+            .disposed(by: disposeBag)
     }
 }

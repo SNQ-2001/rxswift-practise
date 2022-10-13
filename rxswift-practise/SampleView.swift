@@ -12,7 +12,7 @@ import RxSwift
 import RxCocoa
 
 class SampleView: UIView {
-    private var button: UIButton = {
+    private let button: UIButton = {
         let button = UIButton(frame: .zero)
         button.setTitle("ボタン", for: .normal)
         button.setTitleColor(.label, for: .normal)
@@ -22,6 +22,10 @@ class SampleView: UIView {
     }()
 
     private let disposeBag = DisposeBag()
+
+    var buttonDidTap: Observable<Void> {
+        button.rx.tap.asObservable()
+    }
 
     override init(frame: CGRect) {
         super.init(frame: frame)
