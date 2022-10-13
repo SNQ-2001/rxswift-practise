@@ -42,12 +42,5 @@ class SampleView: UIView {
         button.snp.makeConstraints {
             $0.center.equalToSuperview()
         }
-
-        button.rx.tap
-            .subscribe(onNext: {
-                // ViewControllerでpresentしたい
-                // 例えば`UIAlertController`とか`UIActivityViewController`とか
-            })
-            .disposed(by: disposeBag)
     }
 }
