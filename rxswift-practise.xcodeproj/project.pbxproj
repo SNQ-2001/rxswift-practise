@@ -18,6 +18,12 @@
 		1C59127D28F7A27900EB8832 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 1C59127C28F7A27900EB8832 /* RxCocoa */; };
 		1C59127F28F7A27900EB8832 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 1C59127E28F7A27900EB8832 /* RxRelay */; };
 		1C59128128F7A27900EB8832 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1C59128028F7A27900EB8832 /* RxSwift */; };
+		1CDA458E290631F500CD0874 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDA458D290631F500CD0874 /* AppDelegate.swift */; };
+		1CDA4590290631F500CD0874 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDA458F290631F500CD0874 /* SceneDelegate.swift */; };
+		1CDA4592290631F500CD0874 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDA4591290631F500CD0874 /* ViewController.swift */; };
+		1CDA4595290631F500CD0874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CDA4593290631F500CD0874 /* Main.storyboard */; };
+		1CDA4597290631F600CD0874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CDA4596290631F600CD0874 /* Assets.xcassets */; };
+		1CDA459A290631F600CD0874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CDA4598290631F600CD0874 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +35,14 @@
 		1C59125F28F7A05E00EB8832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C59126128F7A05E00EB8832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C59127728F7A10500EB8832 /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
+		1CDA458B290631F500CD0874 /* rxswift-slider-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rxswift-slider-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CDA458D290631F500CD0874 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CDA458F290631F500CD0874 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1CDA4591290631F500CD0874 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CDA4594290631F500CD0874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CDA4596290631F600CD0874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CDA4599290631F600CD0874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CDA459B290631F600CD0874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +58,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1CDA4588290631F500CD0874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -51,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				1C59125228F7A05C00EB8832 /* rxswift-practise */,
+				1CDA458C290631F500CD0874 /* rxswift-slider-sample */,
 				1C59125128F7A05C00EB8832 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				1C59125028F7A05C00EB8832 /* rxswift-practise.app */,
+				1CDA458B290631F500CD0874 /* rxswift-slider-sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +98,20 @@
 				1C59126128F7A05E00EB8832 /* Info.plist */,
 			);
 			path = "rxswift-practise";
+			sourceTree = "<group>";
+		};
+		1CDA458C290631F500CD0874 /* rxswift-slider-sample */ = {
+			isa = PBXGroup;
+			children = (
+				1CDA458D290631F500CD0874 /* AppDelegate.swift */,
+				1CDA458F290631F500CD0874 /* SceneDelegate.swift */,
+				1CDA4591290631F500CD0874 /* ViewController.swift */,
+				1CDA4593290631F500CD0874 /* Main.storyboard */,
+				1CDA4596290631F600CD0874 /* Assets.xcassets */,
+				1CDA4598290631F600CD0874 /* LaunchScreen.storyboard */,
+				1CDA459B290631F600CD0874 /* Info.plist */,
+			);
+			path = "rxswift-slider-sample";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +141,23 @@
 			productReference = 1C59125028F7A05C00EB8832 /* rxswift-practise.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1CDA458A290631F500CD0874 /* rxswift-slider-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CDA459E290631F600CD0874 /* Build configuration list for PBXNativeTarget "rxswift-slider-sample" */;
+			buildPhases = (
+				1CDA4587290631F500CD0874 /* Sources */,
+				1CDA4588290631F500CD0874 /* Frameworks */,
+				1CDA4589290631F500CD0874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rxswift-slider-sample";
+			productName = "rxswift-slider-sample";
+			productReference = 1CDA458B290631F500CD0874 /* rxswift-slider-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -115,6 +169,9 @@
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					1C59124F28F7A05C00EB8832 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					1CDA458A290631F500CD0874 = {
 						CreatedOnToolsVersion = 14.0;
 					};
 				};
@@ -137,6 +194,7 @@
 			projectRoot = "";
 			targets = (
 				1C59124F28F7A05C00EB8832 /* rxswift-practise */,
+				1CDA458A290631F500CD0874 /* rxswift-slider-sample */,
 			);
 		};
 /* End PBXProject section */
@@ -148,6 +206,16 @@
 			files = (
 				1C59126028F7A05E00EB8832 /* LaunchScreen.storyboard in Resources */,
 				1C59125D28F7A05E00EB8832 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CDA4589290631F500CD0874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CDA459A290631F600CD0874 /* LaunchScreen.storyboard in Resources */,
+				1CDA4597290631F600CD0874 /* Assets.xcassets in Resources */,
+				1CDA4595290631F500CD0874 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +233,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1CDA4587290631F500CD0874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CDA4592290631F500CD0874 /* ViewController.swift in Sources */,
+				1CDA458E290631F500CD0874 /* AppDelegate.swift in Sources */,
+				1CDA4590290631F500CD0874 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -172,6 +250,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				1C59125F28F7A05E00EB8832 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1CDA4593290631F500CD0874 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CDA4594290631F500CD0874 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CDA4598290631F600CD0874 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CDA4599290631F600CD0874 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -347,6 +441,62 @@
 			};
 			name = Release;
 		};
+		1CDA459C290631F600CD0874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69BMRJXU5B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "rxswift-slider-sample/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rxswift-slider-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CDA459D290631F600CD0874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69BMRJXU5B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "rxswift-slider-sample/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rxswift-slider-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -364,6 +514,15 @@
 			buildConfigurations = (
 				1C59126528F7A05E00EB8832 /* Debug */,
 				1C59126628F7A05E00EB8832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CDA459E290631F600CD0874 /* Build configuration list for PBXNativeTarget "rxswift-slider-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDA459C290631F600CD0874 /* Debug */,
+				1CDA459D290631F600CD0874 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
